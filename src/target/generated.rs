@@ -2045,6 +2045,18 @@ pub(crate) const LIST: &[(&str, TargetInfo<'static>)] = &[
         },
     ),
     (
+        "riscv32im-succinct-zkvm-elf",
+        TargetInfo {
+            full_arch: "riscv32im",
+            arch: "riscv32",
+            vendor: "succinct",
+            os: "zkvm",
+            env: "",
+            abi: "",
+            unversioned_llvm_target: "riscv32",
+        },
+    ),
+    (
         "riscv32im-unknown-none-elf",
         TargetInfo {
             full_arch: "riscv32im",
